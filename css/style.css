@@ -1,4 +1,33 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
-* This file contains the CSS for index.html
-*/
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: left;
+}
+
+h1 {
+    color: #00ff2a;
+  background-color: #545454;
+    margin-top: 20px; /* Added margin-top to h1 */
+}
+
+#container {
+    margin-top: 20px;
+}
+
+input[type="number"], button {
+    padding: 10px; /* Increased padding */
+    margin: 10px; /* Increased margin */
+    border-radius: 5px; /* Added border radius */
+    border: 2px solid #333; /* Added border */
+    font-size: 16px; /* Increased font size */
+}
+
+img {
+    margin-top: 20px;
+}
+
+.colored-text {
+    color: black;
+    font-size: 18px;
+}
